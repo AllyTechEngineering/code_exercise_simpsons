@@ -1,0 +1,20 @@
+flavors:
+  variantOne:
+    app:
+      name: "Variant One"
+    android:
+      applicationId: "com.sample.simpsonsviewer"
+    ios:
+      bundleId: "com.sample.simpsonsviewer"
+    macos:
+      bundleId: "com.sample.simpsonsviewer"
+  variantTwo:
+    app:
+      name: "Variant Two"
+
+    android:
+      applicationId: "com.sample.wireviewer"
+    ios:
+      bundleId: "com.sample.wireviewer"
+    macos:
+      bundleId: "com.sample.wireviewer"
