@@ -134,7 +134,7 @@ final appTheme = ThemeData(
     tileColor: const Color(0xFF053B50),
     shape: RoundedRectangleBorder(
       side: BorderSide(width: 2),
-      borderRadius: BorderRadius.circular(24),
+      borderRadius: BorderRadius.circular(10),
       //border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(25.0))),
     ),
   ),

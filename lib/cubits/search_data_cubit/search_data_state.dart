@@ -1,13 +1,13 @@
-part of 'search_cubit.dart';
+part of 'search_data_cubit.dart';
 
-class SearchState extends Equatable {
+class SearchDataState extends Equatable {
   final String searchTerm;
-  SearchState({
+  SearchDataState({
     required this.searchTerm,
   });
 
-  factory SearchState.initial() {
-    return SearchState(searchTerm: '');
+  factory SearchDataState.initial() {
+    return SearchDataState(searchTerm: '');
   }
 
   @override
@@ -16,10 +16,10 @@ class SearchState extends Equatable {
   @override
   String toString() => 'SearchState(searchTerm: $searchTerm)';
 
-  SearchState copyWith({
+  SearchDataState copyWith({
     String? searchTerm,
   }) {
-    return SearchState(
+    return SearchDataState(
       searchTerm: searchTerm ?? this.searchTerm,
     );
   }
